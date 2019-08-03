@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "people":[  
+    {  
+      "ID":"293",
+      "IsActive":false,
+      "EyeColor":"brown",
+      "Name":"Zaphod Beeblebrox",
+      "Company":"Betelgeuse",
+      "Email":"zaphod@beeblebrox.com",
+      "Address":"Heart of Gold"
+    },
+    {  
+      "ID":"581",
+      "IsActive":true,
+      "EyeColor":"blue",
+      "Name":"Slartibartfast",
+      "Company":"Magrathea",
+      "Email":"slarti@bartfast.com",
+      "Address":"Norway, Earth"
+    }
+  ]
+}

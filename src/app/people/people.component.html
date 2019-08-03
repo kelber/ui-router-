@@ -1,0 +1,15 @@
+<app-lean></app-lean>
+
+
+<h3>Some People</h3>
+
+<ul>
+    <li *ngFor="let person of ResolveDataPeople">
+        <a uiSref=".person" [uiParams]="{personid: person.ID}">
+        {{person.Name}}
+        </a>
+    </li>
+</ul>
+
+
+<ui-view></ui-view>
